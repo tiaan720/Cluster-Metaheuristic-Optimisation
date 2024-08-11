@@ -14,7 +14,7 @@ for dataset in "${datasets[@]}"; do
     echo "Running $algorithm on $dataset dataset..."
     
     # Run the main.py script with the current dataset and optimization algorithm
-    python Assignment2_clustering/main.py --dataset "$dataset" --optimization "$algorithm"
+    python src/main.py --dataset "$dataset" --optimization "$algorithm"
   done
 done
 
